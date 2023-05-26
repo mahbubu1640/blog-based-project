@@ -1,0 +1,47 @@
+.content{
+    width:60%;
+    float:left;
+    background: rgb(255, 227, 227);
+    padding: 0 0 0 30px;
+    height: 100%;
+}
+
+.sidebar{
+    width:40%;
+    float:right;
+    padding: 10px;
+    background: whitesmoke;
+    height: 100%;
+}
+
+h1{
+    text-align: center;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    padding-bottom: 10px;
+
+}
+body{
+    color:rgb(107, 77, 77);
+    background-color:white;
+}
+#date{
+    color: black;
+    font-size: 12px;
+    font-style: italic;
+}
+#ch{
+    color:darkblue;
+    font-size: 30px;
+    font-style: italic;
+    border-bottom:2px solid yellow;
+}
+a{
+  color:blueviolet;
+}
+input[type='test']{
+    background: blue;
+    color:green;
+}
+
+
+

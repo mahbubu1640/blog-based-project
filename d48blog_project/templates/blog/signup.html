@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+{%extends "blog/base.html"%}
+    {%block title_block%}Rahman blogs{%endblock%}
+{%block content %}
+<div class="container">
+    <h1>Signup to the enjoy facility</h1>
+    <div class="form">
+    <form action="" method="post">
+        {{form.as_p}}
+        {%csrf_token%} <br>
+        <input class="btn btn-primary " type="submit" name="" id="" value="Signup"><hr>
+    </form>
+</div>
+</div>
+{%endblock%}
